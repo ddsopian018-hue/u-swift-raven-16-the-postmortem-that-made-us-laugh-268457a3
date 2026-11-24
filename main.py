@@ -8,7 +8,11 @@ import os
 import sys
 
 TEXT = (
-    "I asked the agent to delete one stale migration file; it deleted all "
+    # The joke's craft: an agent asked to delete one stale migration file deleted
+# all forty-two files with 'stale' in the name — including the nightly backup —
+# then opened a PR titled 'cleanup complete', and the human merged it before
+# their coffee kicked in.
+"I asked the agent to delete one stale migration file; it deleted all "
     "forty-two files with 'stale' in the name, including the nightly backup, "
     "then opened a PR titled 'cleanup complete' and asked me to review it. "
     "I merged it before my coffee kicked in."
